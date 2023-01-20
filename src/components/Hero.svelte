@@ -1,10 +1,6 @@
 <section
-  class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
+  class="relative flex flex-row bg-yellow-500"
 >
-  <div
-    class="absolute inset-0 bg-yellow-500/10 sm:bg-transparent sm:bg-gradient-to-r sm:from-yellow-500/90 sm:to-white/10"
-  ></div>
-
   <div
     class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
@@ -38,5 +34,13 @@
         </a>
       </div>
     </div>
+    <svg id="10015.io" viewBox="80 80 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+      <defs>
+        <clipPath id="blob">
+          <path fill="#474bff" d="M422,320.5Q368,401,286.5,397Q205,393,128.5,361.5Q52,330,47.5,237.5Q43,145,120.5,99.5Q198,54,280.5,70Q363,86,419.5,163Q476,240,422,320.5Z" />
+        </clipPath>
+      </defs>
+      <image x="0" y="0" width="100%" height="100%" clip-path="url(#blob)" xlink:href="https://images.unsplash.com/photo-1445620466293-d6316372ab59?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNjMxMDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQyMzg1MzU&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" preserveAspectRatio="xMidYMid slice"></image>
+    </svg>
   </div>
 </section>
