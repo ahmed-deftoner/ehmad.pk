@@ -1,5 +1,5 @@
 <section
-  class="relative flex flex-row bg-yellow-500"
+  class="relative flex md:flex-row bg-yellow-500 flex-col-reverse"
 >
   <div
     class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
@@ -25,5 +25,34 @@
         </a>
     </div>
   </div>
-  <img class="mr-16 my-3 h-[500px] w-[500px]" src="/kaaba.png" alt="kaaba"/>
+  <img class="mx-14 my-3 h-[500px] w-[500px]" src="/kaaba.png" alt="kaaba"/>
 </section>
+<section>
+  <div class="custom-shape-divider-top-1674307116">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+  </div>
+</section>
+
+<style>
+  .custom-shape-divider-top-1674307116 {
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1674307116 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-top-1674307116 .shape-fill {
+    fill: #EAB308;
+}
+</style>
