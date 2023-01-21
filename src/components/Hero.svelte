@@ -1,5 +1,5 @@
 <section
-  class="relative flex md:flex-row bg-yellow-500 flex-col-reverse"
+  class="relative flex bg-yellow-500 flex-col-reverse sm:flex-row"
 >
   <div
     class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
