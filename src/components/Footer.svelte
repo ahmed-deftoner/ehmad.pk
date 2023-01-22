@@ -1,4 +1,5 @@
-<footer class="bg-yellow-500">
+
+<footer class="b bg-gray-800">
     <!-- Flex Container -->
     <div
       class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
@@ -11,8 +12,14 @@
           Copyright &copy; 2022, All Rights Reserved
         </div>
         <!-- Logo -->
-        <div>
-          <img src="/logo.svg" class="h-8" alt="" />
+        <div class="flex flex-row">
+          <img src="/logo.png" class="h-[3rem] w-[3.5rem]" alt="" />
+          <div class="flex flex-col">
+            <h2 class="text-white font-extrabold text-3xl">
+                EMAD
+              </h2>
+              <p class="text-white text-xs">TRAVEL AND TOURS</p>
+          </div>
         </div>
         <!-- Social Links Container -->
         <div class="flex justify-center space-x-4">
@@ -76,3 +83,6 @@
     </div>
   </footer>
   
+  <style>  
+ 
+  </style>

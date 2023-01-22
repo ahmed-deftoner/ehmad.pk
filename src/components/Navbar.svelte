@@ -1,9 +1,5 @@
-<nav class="bg-yellow-500 flex justify-between items-center p-4">
-    <div class="text-white mr-4">
-        <strong>
-            Ehmad Travels <br>
-        </strong>
-    </div>
+<nav class="flex bg-maindark justify-between items-center p-4">
+    <img src="/logo.png" alt="logo" class="h-[2.5rem] w-[3.5rem]"/>
     <div class="hidden justify-center items-center lg:flex">
         <a href="/" class="text-white px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-white hover:rounded-xl">Home</a>
         <a href="/" class="text-white px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-white hover:rounded-xl">Hajj</a>
