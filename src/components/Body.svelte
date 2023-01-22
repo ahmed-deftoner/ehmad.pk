@@ -9,9 +9,9 @@
       <div class="flex flex-col mt-24 sm:flex-row">
         <!-- Testimonial 1 -->
         <div
-          class="flex flex-col items-center rounded-lg sm:flex-row"
+          class="flex flex-col items-center sm:flex-row"
         >
-        <img src="/hamid.png" class="shadow-2xl rounded-full max-w-full h-auto align-middle border-none" alt="" />
+        <img src="/hamid.png" class="shadow-2xl my-10 rounded-full max-w-full h-auto align-middle border-none" alt="" />
           <div class="flex flex-col">
             <h5 class="text-lg font-bold">Hamid Younas</h5>
             <p class="text-sm mt-3 text-slate-800 px-24 items-start">
@@ -28,14 +28,14 @@
   <section id="features" class="bg-slate-100 snap-start">
     <!-- Flex container -->
     <div
-      class="container flex flex-col px-4 mx-auto pt-10 space-y-12 md:space-y-0 md:flex-row"
+      class="container flex flex-col px-4 mx-auto pt-10 pl-10 space-y-12 md:space-y-0 md:flex-row"
     >
       <!-- What's Different -->
-      <div class="flex flex-col space-y-12 md:w-1/2">
-        <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+      <div class="flex flex-col space-y-12 md:w-1/2 items-center sm:items-start">
+        <h2 class="max-w-md text-4xl font-bold text-center md:text-left lg:pt-20">
           Our Services?
         </h2>
-        <p class="max-w-sm text-center text-gray-700 md:text-left">
+        <p class="max-w-sm text-gray-700 text-center sm:p-0 sm:text-left">
           Ehmad provides many services to compliment our Hajj and Ummrah
           packages since customer satisfaction is of utmost importance to our 
           team.
@@ -52,7 +52,7 @@
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
             <div class="flex items-center space-x-2">
               <div
-                class="px-4 py-2 text-white rounded-full md:py-1 bg-yellow-600"
+                class="px-4 py-2 text-white rounded-full md:py-1 bg-maindark"
               >
                 01
               </div>
@@ -80,7 +80,7 @@
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
             <div class="flex items-center space-x-2">
               <div
-                class="px-4 py-2 text-white rounded-full md:py-1 bg-yellow-600"
+                class="px-4 py-2 text-white rounded-full md:py-1 bg-maindark"
               >
                 02
               </div>
@@ -108,7 +108,7 @@
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
             <div class="flex items-center space-x-2">
               <div
-                class="px-4 py-2 text-white rounded-full md:py-1 bg-yellow-600"
+                class="px-4 py-2 text-white rounded-full md:py-1 bg-maindark"
               >
                 03
               </div>
