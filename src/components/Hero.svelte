@@ -27,7 +27,7 @@
   </div>
   <img class="mx-14 my-3 h-[500px] w-[500px]" src="/kaaba.png" alt="kaaba"/>
 </section>
-<section>
+<section class="bg-slate-100"> 
   <div class="custom-shape-divider-top-1674307116">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
@@ -50,6 +50,7 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 115px;
+    background-color: rgb(241, 245, 249);
 }
 
 .custom-shape-divider-top-1674307116 .shape-fill {
