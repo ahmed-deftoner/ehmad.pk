@@ -5,8 +5,7 @@ module.exports = {
 		extend: {
 			colors: {
 				maindark: 'rgb(17,24,39)',
-				
-			  },
+			},
 		},
 	},
 	plugins: [],

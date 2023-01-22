@@ -26,7 +26,7 @@
           </a>
       </div>
     </div>
-    <img class="mx-14 my-3 h-[500px] w-[500px]" src="/kaaba.png" alt="kaaba"/>
+    <img class="mx-14 relative my-3 h-[500px] w-[500px]" src="/kaaba.png" alt="kaaba"/>
   </section>
   <section class="bg-slate-100"> 
     <div class="custom-shape-divider-top-1674307116">
@@ -59,4 +59,5 @@
 .custom-shape-divider-top-1674307116 .shape-fill {
     fill: rgb(17,24,39);
 }
+
 </style>
