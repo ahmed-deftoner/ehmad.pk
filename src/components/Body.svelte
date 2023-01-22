@@ -1,4 +1,4 @@
-<section id="testimonials">
+<section id="msg" class="snap-start">
     <!-- Container to heading and testm blocks -->
     <div class="max-w-6xl container bg-slate-100 py-32 px-5 mx-auto text-center">
       <!-- Heading -->
@@ -25,7 +25,7 @@
     </div>
   </section>
 
-  <section id="features" class="bg-slate-100">
+  <section id="features" class="bg-slate-100 snap-start">
     <!-- Flex container -->
     <div
       class="container flex flex-col px-4 mx-auto pt-10 space-y-12 md:space-y-0 md:flex-row"
@@ -33,12 +33,12 @@
       <!-- What's Different -->
       <div class="flex flex-col space-y-12 md:w-1/2">
         <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
-          What's different about Manage?
+          Our Services?
         </h2>
         <p class="max-w-sm text-center text-gray-700 md:text-left">
-          Manage provides all the functionality your team needs, without the
-          complexity. Our software is tailor-made for modern digital product
-          teams.
+          Ehmad provides many services to compliment our Hajj and Ummrah
+          packages since customer satisfaction is of utmost importance to our 
+          team.
         </p>
       </div>
 
@@ -57,20 +57,17 @@
                 01
               </div>
               <h3 class="text-base font-bold md:mb-4 md:hidden">
-                Track company-wide progress
+                Ticketing
               </h3>
             </div>
           </div>
 
           <div>
             <h3 class="hidden mb-4 text-lg font-bold md:block">
-              Track company-wide progress
+              Ticketing
             </h3>
             <p class="text-gray-700">
-              See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture
-              again.
+              Being IATA accredited travel agent, we can handle all travels needs of our esteemed clients for domestic and international destinations with 24/7 facility and competitively low prices.
             </p>
           </div>
         </div>
@@ -88,19 +85,17 @@
                 02
               </div>
               <h3 class="text-base font-bold md:mb-4 md:hidden">
-                Advanced built-in reports
+                Hotel Reservations
               </h3>
             </div>
           </div>
 
           <div>
             <h3 class="hidden mb-4 text-lg font-bold md:block">
-              Advanced built-in reports
+              Hotel Reservations
             </h3>
             <p class="text-gray-700">
-              Set internal delivery estimates and track progress toward
-              company goals. Our customisable dashboard helps you build out
-              the reports you need to keep key stakeholders informed.
+              To cater all your business and pleasure trips, we can assist you for hotel research and conformations all around the globe as per given/required travel dates and destinations.
             </p>
           </div>
         </div>
@@ -118,31 +113,29 @@
                 03
               </div>
               <h3 class="text-base font-bold md:mb-4 md:hidden">
-                Everything you need in one place
+                 Tours
               </h3>
             </div>
           </div>
 
           <div>
             <h3 class="hidden mb-4 text-lg font-bold md:block">
-              Everything you need in one place
+              Tours
             </h3>
             <p class="text-gray-700">
-              Stop jumping from one service to another to communicate, store
-              files, track tasks and share documents. Manage offers an
-              all-in-one team productivity solution.
+              At the movement Emad Travels is catering families on individual basis and are planning to announce group tours for Turkey, Malaysia, Singapore, UAE, Uzbekistan and etc.
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="testimonials">
+  <section id="testimonials" class="bg-slate-100 snap-start">
     <!-- Container to heading and testm blocks -->
-    <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+    <div class="max-w-6xl px-5 mx-auto py-32 text-center">
       <!-- Heading -->
       <h2 class="text-4xl font-bold text-center">
-        What's Different About Manage?
+        Testimonials?
       </h2>
       <!-- Testimonials Container -->
       <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
@@ -185,17 +178,9 @@
           </p>
         </div>
       </div>
-      <!-- Button -->
-      <div class="my-16">
-        <a
-          href="/"
-          class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
-          >Get Started</a
-        >
-      </div>
     </div>
   </section>
-  <section id="cta" class="bg-red-600">
+  <section id="cta" class="bg-red-600 snap-start">
     <!-- Flex Container -->
     <div
       class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
@@ -204,15 +189,25 @@
       <h2
         class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
       >
-        Simplify how your team works today
+        Want to perform Ummrah?
       </h2>
       <!-- Button -->
       <div>
         <a
           href="/"
-          class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
-          >Get Started</a
+          class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:text-white hover:bg-gray-900"
+          >See Packages</a
         >
       </div>
     </div>
   </section>
+
+  <style>
+     #cta {
+      background-image: url('/cta.svg');
+      background-color: black;
+      min-height:100%;
+      background:linear-gradient(0deg, rgba(36, 34, 35, 0.451), rgba(32, 30, 31, 0.3)), url("/cta.svg");
+      background-size:cover;
+    }
+  </style>

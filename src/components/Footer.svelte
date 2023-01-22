@@ -1,5 +1,5 @@
 
-<footer class="b bg-gray-800">
+<footer class="bg-gray-800">
     <!-- Flex Container -->
     <div
       class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
@@ -63,18 +63,78 @@
       <!-- Input Container -->
       <div class="flex flex-col justify-between">
         <form>
-          <div class="flex space-x-3">
-            <input
-              type="text"
-              class="flex-1 px-4 rounded-full focus:outline-none"
-              placeholder="Updated in your inbox"
-            />
-            <button
-              class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
-            >
-              Go
-            </button>
+          <h1 class="text-slate-200 font-extrabold text-5xl pb-8">Send a message</h1>
+          <div class="form-group mb-6">
+            <input type="text" class="form-control block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
+              placeholder="Name">
           </div>
+          <div class="form-group mb-6">
+            <input type="email" class="form-control block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
+              placeholder="Email address">
+          </div>
+          <div class="form-group mb-6">
+            <textarea class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+          " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="
+          w-full
+          px-6
+          py-2.5
+          bg-blue-600
+          text-white
+          font-medium
+          text-xs
+          leading-tight
+          uppercase
+          rounded
+          shadow-md
+          hover:bg-blue-700 hover:shadow-lg
+          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+          active:bg-blue-800 active:shadow-lg
+          transition
+          duration-150
+          ease-in-out">Send</button>
         </form>
         <div class="hidden text-white md:block">
           Copyright &copy; 2022, All Rights Reserved
