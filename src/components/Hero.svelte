@@ -26,7 +26,7 @@
           </a>
       </div>
     </div>
-    <img class="my-3 mx-10 h-[280px] w-[280px] sm:h-[500px] sm:w-[500px]" src="/kaaba.png" alt="kaaba"/>
+    <img class="my-3 p-10 container max-h-screen max-w-md sm:max-w-xl" src="/kaaba.png" alt="kaaba"/>
   </section>
   <section class="bg-slate-100 top-0"> 
     <div class="custom-shape-divider-top-1674307116">
