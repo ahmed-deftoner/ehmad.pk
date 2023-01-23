@@ -10,9 +10,9 @@
     </div>
     <div class="flex lg:hidden">
         <div class="space-y-2">
-            <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
-            <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
-            <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+            <span class="block w-8 h-0.5 bg-slate-50 animate-pulse"></span>
+            <span class="block w-8 h-0.5 bg-slate-50 animate-pulse"></span>
+            <span class="block w-8 h-0.5 bg-slate-50 animate-pulse"></span>
         </div>
     </div>
 </nav>
