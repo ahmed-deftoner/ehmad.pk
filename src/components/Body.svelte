@@ -1,4 +1,4 @@
-<section id="msg" class="snap-start">
+<section id="msg">
     <!-- Container to heading and testm blocks -->
     <div class="max-w-6xl container bg-slate-100 py-32 px-5 mx-auto text-center">
       <!-- Heading -->
@@ -25,7 +25,7 @@
     </div>
   </section>
 
-  <section id="features" class="bg-slate-100 snap-start">
+  <section id="features" class="bg-slate-100">
     <!-- Flex container -->
     <div
       class="container flex flex-col px-4 mx-auto pt-10 pl-10 space-y-12 md:space-y-0 md:flex-row"
@@ -130,7 +130,7 @@
       </div>
     </div>
   </section>
-  <section id="testimonials" class="bg-slate-100 snap-start">
+  <section id="testimonials" class="bg-slate-100">
     <!-- Container to heading and testm blocks -->
     <div class="max-w-6xl px-5 mx-auto py-32 text-center">
       <!-- Heading -->
@@ -180,7 +180,7 @@
       </div>
     </div>
   </section>
-  <section id="cta" class="bg-red-600 snap-start">
+  <section id="cta">
     <!-- Flex Container -->
     <div
       class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"

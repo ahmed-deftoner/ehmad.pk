@@ -1,4 +1,4 @@
-<div class="snap-start">
+<div>
   <section
     class="relative flex bg-gray-900 flex-col-reverse sm:flex-row"
   >
