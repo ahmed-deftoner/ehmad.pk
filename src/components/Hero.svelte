@@ -3,7 +3,7 @@
     class="relative flex bg-gray-900 flex-col-reverse sm:flex-row"
   >
     <div
-      class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+      class="relative mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
     >
       <div class="max-w-xl text-center sm:text-left">
         <h1 class="font-extrabold text-5xl sm:text-5xl text-white">
@@ -26,9 +26,9 @@
           </a>
       </div>
     </div>
-    <img class="mx-14 my-3 h-[500px] w-[500px]" src="/kaaba.png" alt="kaaba"/>
+    <img class="my-3 mx-10 h-[280px] w-[280px] sm:h-[500px] sm:w-[500px]" src="/kaaba.png" alt="kaaba"/>
   </section>
-  <section class="bg-slate-100"> 
+  <section class="bg-slate-100 top-0"> 
     <div class="custom-shape-divider-top-1674307116">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
