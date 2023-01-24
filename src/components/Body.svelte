@@ -14,7 +14,7 @@
         <img src="/hamid.png" class="shadow-2xl my-10 rounded-full max-w-full h-auto align-middle border-none" alt="" />
           <div class="flex flex-col">
             <h5 class="text-lg font-bold">Hamid Younas</h5>
-            <p class="text-sm mt-3 text-slate-800 px-24 items-start">
+            <p class="text-sm mt-3 text-slate-800 sm:px-24 px-10 items-start">
               Umrah & Hajj are only for Allah. Those who love Allah and have the capacity to spend in His way, they must perform Hajj & Umrah. I have vast experience in this field and my aim is to serve guests of Allah at my best. I myself accompany Hujjaj from the first day of Hajj till the last moment for providing expert guidance at all places and to ensure a comfortable journey.
             </p>
           </div>
@@ -130,53 +130,43 @@
       </div>
     </div>
   </section>
-  <section id="testimonials" class="bg-slate-100">
+  <section id="accolades" class="bg-slate-100">
     <!-- Container to heading and testm blocks -->
-    <div class="max-w-6xl px-5 mx-auto py-32 text-center">
-      <!-- Heading -->
-      <h2 class="text-4xl font-bold text-center">
-        Testimonials?
-      </h2>
-      <!-- Testimonials Container -->
-      <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
-        <!-- Testimonial 1 -->
-        <div
-          class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
-        >
-          <img src="/avatar-anisha.png" class="w-16 -mt-14" alt="" />
-          <h5 class="text-lg font-bold">Anisha Li</h5>
-          <p class="text-sm text-darkGrayishBlue">
-            “Manage has supercharged our team’s workflow. The ability to
-            maintain visibility on larger milestones at all times keeps
-            everyone motivated.”
-          </p>
-        </div>
-
-        <!-- Testimonial 2 -->
-        <div
-          class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
-        >
-          <img src="/avatar-ali.png" class="w-16 -mt-14" alt="" />
-          <h5 class="text-lg font-bold">Ali Bravo</h5>
-          <p class="text-sm text-darkGrayishBlue">
-            “We have been able to cancel so many other subscriptions since
-            using Manage. There is no more cross-channel confusion and
-            everyone is much more focused.”
-          </p>
-        </div>
-
-        <!-- Testimonial 3 -->
-        <div
-          class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
-        >
-          <img src="/avatar-richard.png" class="w-16 -mt-14" alt="" />
-          <h5 class="text-lg font-bold">Richard Watts</h5>
-          <p class="text-sm text-darkGrayishBlue">
-            “Manage has supercharged our team’s workflow. The ability to
-            maintain visibility on larger milestones at all times keeps
-            everyone motivated.”
-          </p>
-        </div>
+    <div class="max-w-6xl px-5 mx-auto py-32 text-center grid lg:grid-cols-4 md:grid-cols-2 gap-6">
+       <div class="rounded-2xl items-center p-6 shadow-xl shadow-slate-900/25 flex flex-col">
+         <img src="/pk.png" alt="gov of pakistan" class="max-w-sm max-h-30"/>
+         <h5>
+          <strong>
+            Registered with Ministry
+            of Religious Affairs
+          </strong><br><br>Government of Pakistan
+          License # 3144</h5> 
+       </div>
+       <div class="rounded-2xl items-center p-6 shadow-xl shadow-slate-900/25 flex flex-col">
+        <img src="/pk.png" alt="gov of pakistan" class="max-w-sm max-h-30"/>
+        <h5>
+         <strong>
+          Registered with Department
+          of Tourist Services
+         </strong><br><br>Government of Pakistan
+         DTS # 3086</h5> 
+      </div>
+      <div class="rounded-2xl items-center p-6 shadow-xl shadow-slate-900/25 flex flex-col">
+        <img src="/se.png" alt="gov of pakistan" class="max-w-sm max-h-30"/>
+        <h5>
+         <strong>
+          Registered as Private
+          Limited Company with
+         </strong><br><br>Securities & Exchange Commission of Pakistan</h5> 
+      </div>
+      <div class="rounded-2xl items-center p-6 shadow-xl shadow-slate-900/25 flex flex-col">
+        <img src="/sa.png" alt="gov of pakistan" class="max-w-sm max-h-30"/>
+        <h5>
+         <strong>
+          Registered with
+          Ministry of Hajj
+         </strong><br><br>Kingdom of Saudi Arabia
+         Munazim # 3783</h5> 
       </div>
     </div>
   </section>
