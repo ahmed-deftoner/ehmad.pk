@@ -41,6 +41,6 @@
     bottom:0;
     z-index:2;
     background: rgb(241,245,249);
-background: linear-gradient(180deg, rgba(241,245,249,0) 0%, rgba(241,245,249,0.12386204481792717) 75%, rgba(241,245,249,1) 100%);
+    background: linear-gradient(180deg, rgba(241,245,249,0) 0%, rgba(241,245,249,0.12386204481792717) 75%, rgba(241,245,249,1) 100%);
   }
 </style>
