@@ -25,7 +25,7 @@
         </a>
     </div>
   </div>
-  <img class="w-screen" src="/kaaba1.jpg" alt="kaaba"/>
+  <img class="w-screen h-screen" src="/kaaba1.jpg" alt="kaaba"/>
   <div class="backe"></div>
 </section>
 
