@@ -4,7 +4,7 @@
   <div
     class="absolute mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
-    <div class="max-w-xl rounded-lg backdrop-blur-2xl p-4 text-center sm:text-left">
+    <div class="max-w-xl rounded-lg bg-maindark p-4 text-center sm:text-left">
       <h1 class="font-extrabold text-5xl sm:text-5xl text-slate-100">
         HAJJ
 
