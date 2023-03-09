@@ -5,7 +5,7 @@
     class="absolute mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
     <div class="max-w-xl rounded-lg backdrop-blur-2xl p-4 text-center sm:text-left">
-      <h1 class="font-extrabold text-5xl sm:text-5xl text-slate-100">
+      <h1 class="font-extrabold mdtext-5xl sm:text-5xl text-slate-100">
         HAJJ
 
         <strong class="block font-extrabold text-yellow-500">
@@ -14,8 +14,9 @@
       </h1>
 
       <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed text-slate-100">
-        Registrations Open <br>
-        for Hajj 
+        Registrations Open. <br>
+        For more details: <br>
+        <a href="tel:+923216955000">0321-6955000</a>
       </p>
         <a
           href="/"
@@ -25,7 +26,7 @@
         </a>
     </div>
   </div>
-  <img class="w-screen h-screen" src="/kaaba1.jpg" alt="kaaba"/>
+  <img class="w-screen h-screen" src="/kaaba.jpg" alt="kaaba"/>
   <div class="backe"></div>
 </section>
 

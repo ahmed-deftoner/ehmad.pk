@@ -1,6 +1,4 @@
 <script>
-    import { fly, scale } from 'svelte/transition';
-    import { quadOut } from 'svelte/easing';
 
     let drop = false;
 
