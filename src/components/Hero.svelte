@@ -14,14 +14,14 @@
       </h1>
 
       <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed text-slate-100">
-        Your five star travel partner <br>
-        for Hajj and Ummrah
+        Registrations Open <br>
+        for Hajj 
       </p>
         <a
           href="/"
           class="block mt-8 flex-wrap gap-4 text-center w-full rounded bg-yellow-500 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
         >
-          View Packages
+          Packages Coming Soon
         </a>
     </div>
   </div>

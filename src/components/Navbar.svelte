@@ -17,7 +17,7 @@
 </script>
 
 <nav class="flex bg-slate-100 justify-between items-center p-4">
-    <img src="/logo.webp" alt="logo" class="h-[3rem] w-[3.5rem]"/>
+    <img src="/Logo.webp" alt="logo" class="h-[3rem] w-[3.5rem]"/>
     <div class="hidden justify-center items-center lg:flex">
         <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Home</a>
         <a href="/about" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">About</a>
