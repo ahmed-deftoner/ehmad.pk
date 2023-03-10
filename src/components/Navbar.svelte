@@ -39,7 +39,7 @@
     </div>
     {#if showMenu === false}
         <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <button on:click={toggleNavbar} class="md:hidden cursor-pointer">
+        <button on:click={toggleNavbar} class="lg:hidden cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#000000" width="2rem" height="2rem" viewBox="0 0 1920 1920">
                 <path d="M1920 1468.412v112.94H0v-112.94h1920Zm0-564.706v112.941H0V903.706h1920ZM1920 339v112.941H0V339h1920Z" fill-rule="evenodd"/>
             </svg>

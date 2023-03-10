@@ -1,11 +1,11 @@
 <section
-  class="relative flex flex-col-reverse sm:flex-row"
+  class="relative"
 >
   <div
-    class="absolute mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    class="absolute max-w-screen-xl px-4 py-3 md:py-14"
   >
-    <div class="max-w-xl rounded-lg bg-maindark p-4 text-center sm:text-left">
-      <h1 class="font-extrabold text-5xl sm:text-5xl text-slate-100">
+    <div class="rounded-lg bg-maindark p-4 my-14 md:my-20 text-center sm:text-left">
+      <h1 class="font-extrabold md:text-5xl text-xl text-slate-100">
         HAJJ
 
         <strong class="block font-extrabold text-yellow-500">
@@ -13,20 +13,20 @@
         </strong>
       </h1>
 
-      <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed text-slate-100">
+      <p class="mt-4 md:text-lg text-sm sm:leading-relaxed text-slate-100">
         Registrations Open. <br>
         For more details: <br>
         <a href="tel:+923216955000">0321-6955000</a>
       </p>
         <a
           href="/"
-          class="block mt-8 flex-wrap gap-4 text-center w-full rounded bg-yellow-500 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          class="block mt-8 flex-wrap gap-4 text-center rounded bg-yellow-500 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
         >
           Packages Coming Soon
         </a>
     </div>
   </div>
-  <img class="w-screen h-screen" src="/kaaba.jpg" alt="kaaba"/>
+  <img class="w-screen md:h-screen h-screen object-cover md:object-fill" src="/kaaba.jpg" alt="kaaba"/>
   <div class="backe"></div>
 </section>
 
