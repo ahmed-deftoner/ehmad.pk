@@ -23,13 +23,10 @@ const {data} = Astro.props;
                 <th scope="col" class="px-6 py-3">
                     Message
                 </th>
-                <th scope="col" class="px-6 py-3">
-                    Action
-                </th>
             </tr>
         </thead>
         <tbody>
-            {data.map((el: Msg, idx: number) => (
+            {data.map((el: Msg) => (
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                         {el.name}
@@ -42,28 +39,8 @@ const {data} = Astro.props;
                             {el.message}
                         </p>
                     </td>
-                    <td class="flex items-center px-6 py-4 space-x-3">
-                        <button id={idx.toString()} class="del font-medium text-red-600 dark:text-red-500 hover:underline">Delete</button>
-                    </td>
                 </tr>
             ))}
         </tbody>
     </table>
 </div>
-
-<script define:vars={{data}}>
-     // Find all buttons with the `alert` class on the page.
-    const buttons = document.querySelectorAll('button.del');
-    
-    // Handle clicks on each button.
-    buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-            const link = "https://idxmkziy70.execute-api.ap-south-1.amazonaws.com/Stage/msg/" + data[button.id].id;
-            console.log(link);
-            fetch(link, {
-                method: "DELETE"
-            }).then(response => response.json())
-            alert(data[button.id].id);
-        });
-    });
-</script>
