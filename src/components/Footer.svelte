@@ -5,6 +5,7 @@
     let result = null;
 
     async function submitForm() {
+      console.log("jsks");
         const Msg = {
             name: Name,
             email: Email,
