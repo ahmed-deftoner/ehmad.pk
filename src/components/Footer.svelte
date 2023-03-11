@@ -1,3 +1,26 @@
+<script lang="ts">
+    let Name: string = '';
+    let Email: string = '';
+    let Message: string = '';
+    let result = null;
+
+    async function submitForm() {
+        const Msg = {
+            name: Name,
+            email: Email,
+            message: Message
+        };
+        const res = await fetch('https://idxmkziy70.execute-api.ap-south-1.amazonaws.com/Stage/msg', 
+        { 
+         method: 'POST',
+          body: JSON.stringify(Msg)        
+        });
+        const json = await res.json()
+        result = JSON.stringify(json)
+        console.log(result);
+        console.log(JSON.stringify(Msg));
+    }
+</script>
 
 <footer class="bg-gray-800">
     <!-- Flex Container -->
@@ -66,10 +89,10 @@
           <div class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-500 rounded-lg blur opacity-75 hover:opacity-100 
           transition duration-600 hover:duration-200 animate-tilt">
           </div>
-          <form class="relative backdrop-blur-md bg-gray-900 rounded-lg p-5">
+          <form on:submit|preventDefault={submitForm} class="relative backdrop-blur-md bg-gray-900 rounded-lg p-5">
             <h1 class="text-slate-200 font-extrabold text-5xl pb-8">Send a message</h1>
             <div class="form-group mb-6">
-              <input type="text" class="form-control block
+              <input id="name" bind:value={Name} type="text" required class="form-control block
               w-full
               px-3
               py-1.5
@@ -82,11 +105,11 @@
               transition
               ease-in-out
               m-0
-              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" 
                 placeholder="Name">
             </div>
             <div class="form-group mb-6">
-              <input type="email" class="form-control block
+              <input id="email" bind:value={Email} type="email" required class="form-control block
               w-full
               px-3
               py-1.5
@@ -99,11 +122,11 @@
               transition
               ease-in-out
               m-0
-              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" 
                 placeholder="Email address">
             </div>
             <div class="form-group mb-6">
-              <textarea class="
+              <textarea id="message" bind:value={Message} class="
               form-control
               block
               w-full
@@ -119,7 +142,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-            " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+            " required rows="3" placeholder="Message"></textarea>
             </div>
             <button type="submit" class="
             w-full
