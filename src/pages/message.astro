@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+type Msg = {
+    name: string,
+    email: string,
+    message: string
+}
+const response = await fetch('https://idxmkziy70.execute-api.ap-south-1.amazonaws.com/Stage/msg');
+const data: Array<Msg> = await response.json();
+---
+<!-- Data fetched at build can be rendered in HTML -->
+
+<Layout title="Messages">
+
+    <div class="relative flex flex-col pb-10 align-middle items-center bg-maindark">
+        <h1 class="font-semibold text-slate-100 my-10 font-serif text-lg">Messages</h1>
+        <table class="text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        Name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Email
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Message
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {data.map((el: Msg) => (
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            {el.name}
+                        </th> 
+                        <td class="px-6 py-4">
+                            {el.email}
+                        </td>
+                        <td class="px-6 py-4">
+                            {el.message}
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    </div>
+</Layout>
