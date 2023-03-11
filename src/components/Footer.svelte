@@ -18,8 +18,7 @@
         });
         const json = await res.json()
         result = JSON.stringify(json)
-        console.log(result);
-        console.log(JSON.stringify(Msg));
+        document.location.reload();
     }
 </script>
 
