@@ -20,7 +20,7 @@
         <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Home</a>
         <a href="/about" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">About</a>
         <button on:click={toggle} class="flex flex-row pl-6 pr-4 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">
-            <div class="text-maindark pr-4">Hajj</div>
+            <div class="text-maindark pr-4">hajj</div>
             {#if drop === false}
                 <svg class="self-end" xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" viewBox="0 0 1024 1024" version="1.1"><path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#000000"/></svg>    
             {:else}
@@ -61,15 +61,16 @@
                         <svg class="self-end" xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" viewBox="0 0 1024 1024" version="1.1"><path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#000000"/></svg>    
                     {:else}
                         <svg class="self-end" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 1024 1024" version="1.1"><path d="M903.232 768l56.768-50.432L512 256l-448 461.568 56.768 50.432L512 364.928z" fill="#000000"/></svg>
-                        <ul style:visibility={drop ? 'visible' : 'hidden'}>
-                            <li><a href="/" class="text-maindark">Packages</a></li>
-                            <li><a href="/" class="text-maindark">Facilities</a></li>
-                            <li><a href="/" class="text-maindark">Training</a></li>
-                            <li><a href="/" class="text-maindark">FAQs</a></li>
-                        </ul>
+                        <div class="flex flex-col" style:visibility={drop ? 'visible' : 'hidden'}>
+                            <a href="/about" class="text-maindark">Packages</a>
+                            <a href="/hajj/facilities" class="text-maindark">Facilities</a>
+                            <a href="/hajj/training" class="text-maindark">Training</a>
+                            <a href="/hajj/FAQ" class="text-maindark">FAQs</a>
+                        </div>
                     {/if}
                 </button>
-                <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Umrah</a>
+                
+                <a href="/umrah" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Umrah</a>
                 <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Gallery</a>
                 <a href="/" class="px-6 py-1 bg-yellow-600 rounded-full border-2 text-slate-100 border-slate-100 focus:text-maindark">Contact</a>
             </div>
