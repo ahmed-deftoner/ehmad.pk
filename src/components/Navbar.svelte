@@ -29,8 +29,8 @@
         </button>
         <ul class="p-2 absolute z-10 bottom-2/3 bg-slate-100 w-80 shadow bg-base-100 rounded-box" style:visibility={drop ? 'visible' : 'hidden'}>
 			<li><a href="/" class="text-maindark">Packages</a></li>
-			<li><a href="/" class="text-maindark">Facilities</a></li>
-            <li><a href="/" class="text-maindark">Training</a></li>
+			<li><a href="/hajj/facilities" class="text-maindark">Facilities</a></li>
+            <li><a href="/hajj/tra" class="text-maindark">Training</a></li>
 			<li><a href="/" class="text-maindark">FAQs</a></li>
 		</ul>
         <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Umrah</a>
@@ -69,7 +69,6 @@
                         </div>
                     {/if}
                 </button>
-                
                 <a href="/umrah" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Umrah</a>
                 <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Gallery</a>
                 <a href="/" class="px-6 py-1 bg-yellow-600 rounded-full border-2 text-slate-100 border-slate-100 focus:text-maindark">Contact</a>
