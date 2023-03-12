@@ -33,9 +33,9 @@
             <li><a href="/hajj/tra" class="text-maindark">Training</a></li>
 			<li><a href="/" class="text-maindark">FAQs</a></li>
 		</ul>
-        <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Umrah</a>
+        <a href="/umrah" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 mx-1 hover:ease-in hover:border-maindark hover:rounded-xl">Umrah</a>
         <a href="/" class="text-maindark px-6 py-2 border-2 border-transparent transition duration-150 ml-1 mr-10 hover:ease-in hover:border-maindark hover:rounded-xl">Gallery</a>
-        <a href="/" class="px-6 py-1 bg-yellow-600 rounded-full border-2 text-slate-100 border-slate-100 focus:text-maindark">Contact</a>
+        <a href="/contact" class="px-6 py-1 bg-yellow-600 rounded-full border-2 text-slate-100 border-slate-100 focus:text-maindark">Contact</a>
     </div>
     {#if showMenu === false}
         <!-- svelte-ignore a11y-click-events-have-key-events -->
